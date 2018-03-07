@@ -1,0 +1,7 @@
+<launch>
+	<include file="$(find raspimouse_ros_2)/launch/raspimouse.launch" />
+	<node pkg="pfoe_rpm" name="pfoe" type="pfoe.py" output="screen" />
+	<node pkg="pfoe_rpm" name="teaching" type="teaching.py" output="screen" />
+	<param name="bagfile" value="20180225_205740.bag" />
+</launch>
+
