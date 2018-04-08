@@ -1,4 +1,4 @@
 # pfoe_rpm
-PFoE Code in Python.
+Pythonで書かれたPFoE(Teach and Replay)のROSパッケージ
 
-※実行速度が遅いため、10Hzで動きません。
+※試作のため、安定して動かないかもしれません。
